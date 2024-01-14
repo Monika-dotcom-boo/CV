@@ -1,10 +1,14 @@
-const Footer = () => {
+import { Footer as FooterFlowbite } from 'flowbite-react';
+import React from 'react';
+
+
+function Footer() {
     return (
-        <div>
-            <div>
-                
-            </div>
-        </div>
+      <div>
+        <FooterFlowbite container>
+          <FooterFlowbite.Copyright href="#" by="MonikaRasała™" year={2024} />
+        </FooterFlowbite>
+      </div>
     )
 }
 

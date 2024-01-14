@@ -1,10 +1,18 @@
-const Header = () => {
+import { Link } from 'react-router-dom';
+
+
+function Header() {
     return (
-        <div>
-            <div>
-                
-            </div>
-        </div>
+      <header>
+        <nav>
+          <ul>
+            <Link to="/Home">Home</Link>
+            <Link to="/Bio">Bio</Link>
+            <Link to="/Projects">Projects</Link>
+            <Link to="/Contact">Contact</Link>
+          </ul>
+        </nav>
+      </header>
     )
 }
 
