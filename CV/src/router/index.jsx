@@ -8,6 +8,7 @@ import Bio from "../componets/bio/Bio";
 import Project from "../componets/projects/Projects";
 import Contact  from "../componets/Contact/contact";
 import Skille from "../componets/skille/Skille";
+import About from "../componets/About/about";
 
 
 const router = createBrowserRouter([
@@ -15,10 +16,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Default />, 
         children:[
-            // {
-            //     path: "/",
-            //     element: <Dashboard />
-            // },
+            {
+                path: "/",
+                element: <Dashboard />
+            },
             {
                 path: "/home",
                 element: <Home />
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
             {
                 path: "/bio",
                 element: <Bio />
+            },
+            {
+                path: "/about",
+                element: <About />
             },
             {
                 path: "/projects",
