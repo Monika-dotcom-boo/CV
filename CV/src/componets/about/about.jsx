@@ -4,7 +4,7 @@ function About() {
       <div>
         <div>
           <p>My ambitions</p>
-          <p>
+          <p className="text-center text-gray-500 dark:text-gray-400">
             After work, I enthusiastically continue my self-education in the field of front-end development. 
             <br />
             Currently, I work professionally in IT, but in the evenings 
@@ -19,7 +19,7 @@ function About() {
         </div>
         <div>
           <p>My goal</p>
-          <p>
+          <p className="text-center text-gray-500 dark:text-gray-400">
             Passionate about my goal of becoming a top front-end developer, my commitment goes beyond regular working hours.
             {' '}
             <br />

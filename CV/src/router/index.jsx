@@ -8,7 +8,8 @@ import Bio from "../componets/bio/Bio";
 import Project from "../componets/projects/Projects";
 import Contact  from "../componets/Contact/contact";
 import Skille from "../componets/skille/Skille";
-import About from "../componets/About/about";
+import About from "../componets/about/about";
+import Experience from "../componets/experience/Experience";
 
 
 const router = createBrowserRouter([
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
             {
                 path: "/skille",
                 element: <Skille />
+            },
+            {
+                path: "/experience",
+                element: <Experience />
             },
 
         ]
