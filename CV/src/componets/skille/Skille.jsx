@@ -1,7 +1,7 @@
 
 function Skille() {
     return (
-      <div>
+      <div className="text-white bg-black">
         <div>
           <div>
             <h4>Web development</h4>
