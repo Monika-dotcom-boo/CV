@@ -1,4 +1,4 @@
-// import profile from "assets/profile.jpeg"
+// import profile from './assets/profile.jpeg';
 
 function Home() {
     return (
@@ -6,7 +6,7 @@ function Home() {
         <div className="">
           <div className="flex align-center justify-center">
             <p className="text-6xl">Hi!</p>
-            <img src="assets/profile.jpeg" alt="My Photo" />
+            {/* <img src={profile} alt="Profile" /> */}
           </div>
           <p className="columns-2 text-xl my-8">
             <p>Hi, I'm Monika - a front-end developer with a passion for creating beautiful and intuitive digital experiences.</p>

@@ -6,7 +6,7 @@ function Footer() {
     return (
       <div>
         <FooterFlowbite container>
-          <FooterFlowbite.Copyright href="#" by="MonikaRasała™" year={2024} />
+          <FooterFlowbite.Copyright href="#" by="Monika Rasała™" year={2024} />
         </FooterFlowbite>
       </div>
     )
