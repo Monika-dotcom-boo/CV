@@ -11,6 +11,7 @@ function Skille() {
               <p>CSS</p>
               <p>JavaScript</p>
               <p>Vue</p>
+              <p>Next.js</p>
             </div>
             <div>
               <p>Bootstrap</p>
@@ -18,6 +19,7 @@ function Skille() {
               <p>Git</p>
               <p>Docker</p>
               <p>MUI</p>
+              <p>Framer Motion</p>
             </div>
           </div>
         </div>
