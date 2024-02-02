@@ -1,6 +1,6 @@
 function Projects() {
     return (
-      <div>
+      <div className="text-white ml-10">
         <div>
           <p className="font-bold text-3xl flex align-center justify-center">Where Imagination Meets Innovation - Elevate Your Online Presence Today!</p>
         </div>
