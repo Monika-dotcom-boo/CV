@@ -1,7 +1,7 @@
 
 function Skille() {
     return (
-      <div className="flex justify-center my-24"> 
+      <div className="flex justify-center my-24 text-white ml-10"> 
         <div>
           <p className="font-bold text-xl decoration-double">Web development</p>
           <div className="flex justify-between">
@@ -12,6 +12,7 @@ function Skille() {
               <p>JavaScript</p>
               <p>Vue</p>
               <p>Next.js</p>
+              <p>WordPress</p>
             </div>
             <div>
               <p>Bootstrap</p>
