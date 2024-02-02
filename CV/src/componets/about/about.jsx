@@ -2,9 +2,9 @@
 function About() {
     return (
       <div>
-        <div>
-          <p>My ambitions</p>
-          <p className="text-center text-gray-500 dark:text-gray-400">
+        <div className="mt-10">
+          <p className="text-4xl text-center text-white">My ambitions</p>
+          <p className="text-center text-white mt-10">
             After work, I enthusiastically continue my self-education in the field of front-end development. 
             <br />
             Currently, I work professionally in IT, but in the evenings 
@@ -17,9 +17,9 @@ function About() {
             tab.
           </p>
         </div>
-        <div>
-          <p>My goal</p>
-          <p className="text-center text-gray-500 dark:text-gray-400">
+        <div className="mt-60">
+        <p className="text-4xl text-center text-white">My goal</p>
+          <p className="text-center text-white mt-10">
             Passionate about my goal of becoming a top front-end developer, my commitment goes beyond regular working hours.
             {' '}
             <br />

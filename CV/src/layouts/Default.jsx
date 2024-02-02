@@ -4,13 +4,13 @@ import { Outlet } from 'react-router-dom'
 
 function Default() {
     return (
-      <>
+      <div className="bg-black">
         <Header />
         <main>
           <Outlet />
         </main>
         <Footer />
-      </>
+      </div>
     )
 }
 
