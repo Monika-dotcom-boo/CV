@@ -6,7 +6,7 @@ import Dashboard from "../pages/Dashboard";
 import Home from "../componets/home/Home";
 import Bio from "../componets/bio/Bio";
 import Project from "../componets/projects/Projects";
-import Contact  from "../componets/Contact/contact";
+// import Contact  from "../componets/Contact/contact";
 import Skille from "../componets/skille/Skille";
 import About from "../componets/about/about";
 import Experience from "../componets/experience/Experience";
@@ -37,10 +37,10 @@ const router = createBrowserRouter([
                 path: "/projects",
                 element: <Project />
             },
-            {
-                path: "/contact",
-                element: <Contact />
-            },
+            // {
+            //     path: "/contact",
+            //     element: <Contact />
+            // },
             {
                 path: "/skille",
                 element: <Skille />

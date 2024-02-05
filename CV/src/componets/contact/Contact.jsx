@@ -2,7 +2,7 @@
 
 const Contact = () => {
     return (
-        <div>
+        <div className="text-white">
             <div>
                 <p>Facebook</p>
             </div>
@@ -10,10 +10,7 @@ const Contact = () => {
                 <p>Linkedin</p>
             </div>
             <div>
-                <p>Mail</p>
-            </div>
-            <div>
-                <p>Phone number</p>
+                <p>Email</p>
             </div>
         </div>
     )

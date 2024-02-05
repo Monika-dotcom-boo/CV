@@ -2,8 +2,8 @@
 
 function Home() {
     return (
-      <div className="">
-        <div className="">
+      <div className=" text-white">
+
           <div className="flex align-center justify-center">
             <p className="text-6xl">Hi!</p>
             {/* <img src={profile} alt="Profile" /> */}
@@ -14,7 +14,7 @@ function Home() {
             <p>My goal is not just to write code, but also to create products that are both functional and aesthetically pleasing. I prioritize solid design principles and pay special attention to details.</p>
             <p>In my free time, I love experimenting with new technologies, reading about the latest trends in the IT industry, and expanding my skills.</p>
           </p>
-        </div>
+        
       </div>
     )
 }
